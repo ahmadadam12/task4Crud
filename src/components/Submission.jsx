@@ -37,7 +37,7 @@ export const Submission = () => {
 
   return (
     <div className="flex justify-center items-center">
-        <input value ={content} onChange={handleInput} className="border-2 rounded-lg focus:outline-none shadow w-full m-4"/>
+        <input value ={content} onChange={handleInput} className="border-2 rounded-lg focus:outline-none shadow w-full m-0 h-12"/>
         <button onClick={createNote} className="m-4">Create</button>
     </div>
   )
