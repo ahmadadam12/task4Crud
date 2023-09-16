@@ -3,15 +3,13 @@
 
 import React from 'react'
 import { NoteCard } from './NoteCard'
-import { createContext, useState,useContext} from 'react'
+// import { createContext, useState,useContext} from 'react'
 import { Submission } from './Submission';
 import { NoteEditor } from './NoteEditor';
 
 // export const NoteDataContext=createContext()
 
 export const Main = ({notedData}) => {
-
-// console.log(notedCard)
 
   return (
     // <NoteDataContext.Provider value={createNote}>

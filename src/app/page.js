@@ -12,7 +12,6 @@ async function getNotes() {
 
 export default async function Home() {
 const {items} = await getNotes()
-// console.log(items)
 
 
   return (

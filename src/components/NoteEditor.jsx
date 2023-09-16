@@ -7,18 +7,6 @@ export const NoteContext = createContext()
 
 export const NoteEditor= ({notedData}) => {
 
-    // const createNote = async () =>{
-    //     const res = await fetch("https://devscale-mockapi.fly.dev/api/collections/notes/records", {
-    //         method: "POST",
-    //         headers: {
-    //           "Content-Type": "application/json",
-    //         },
-    //         body: JSON.stringify({ content: content, user: "me@indrazm.com" }),
-    //       });
-    //       const data = await res.json();
-    // }
-
-
   return (
     // <NoteContext.Provider value={createNote}>
         <div>
