@@ -27,7 +27,7 @@ export const Submission = () => {
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify({ content: content, user: "me@indrazm.com" }),
+          body: JSON.stringify({ content: content, user: "ahmadadam12" }),
         });
         const data = await res.json();
         console.log(data);

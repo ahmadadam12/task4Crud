@@ -3,7 +3,7 @@ import {Main} from '@/components/Main'
 import {Footer} from '@/components/Footer'
 
 async function getNotes() {
-  const res = await fetch("https://devscale-mockapi.fly.dev/api/collections/notes/records?filter=(user='me@indrazm.com')", {
+  const res = await fetch("https://devscale-mockapi.fly.dev/api/collections/notes/records?filter=(user='ahmadadam12')", {
     cache: "no-cache",
   });
   const data = await res.json();
